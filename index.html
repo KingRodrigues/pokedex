@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicons/favicon-16x16.png" type="image/x-icon">
+    
+</head>
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon_imagem">
+
+        <h1 class="pokemon_dados">
+            <span class="pokemon_num"></span> - 
+            <span class="pokemon_nome"></span>
+        </h1>
+
+        <form class="form">
+            <!--
+            type="search" == busca
+            required == obrigatório o preenchimento
+             -->
+            <input
+            type="search"
+            class="input_busca"
+            placeholder="Nome ou Número"
+            required
+            />
+        </form>
+
+        <div class="botoes">
+            <!-- html entities -->
+            <button class="botao botao-volt"> Retornar &lt; </button>
+            <button class="botao botao-avan">Avançar &gt; </button>
+        </div>
+
+        <img src="./imagens/pokedex.png" alt="Pokédex" class="pokedex">
+
+        <footer>
+            <p>Desenvolvido por <a href="https://www.instagram.com/adking.dev/" target="_blank">Adriano Júnio</a> | Projeto do <a href="https://www.youtube.com/c/ManualdoDev" target="_blank">Manual do Dev</a></p>
+        </footer>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
